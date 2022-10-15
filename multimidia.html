@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8"/>
+<title>multimidias</title>
+<link rel="stylesheet" type="text/css" href="css/primeiro.css"/>
+<link rel="stylesheet" type="text/css" href="css/multimidia.css"/>
+</head>
+<script language="javascript" src="javascript/funcoes.js"></script>
+
+<body>
+<div id="interface">
+
+<header id="cabecalho">
+<hgroup>
+<h1> Google Glass</h1>
+<h2>A revolução do google está chegando</h2>
+</hgroup>
+<img id="icone"src="imagens/multmidia.png"/>
+
+
+<nav id="menu">
+<h1> google Glass</h1>
+<p> Uma nova maneira de ver o mundo</p>
+<ul>
+<h1>Menu Principal</h1>
+ <LI onmouseover="mudaFoto('imagens/casa.png')" onmouseout="mudaFoto('imagens/multimidia.png')"><a href="index.html"target="_blank">Home</a></li>
+ 
+ <LI onmouseover="mudaFoto('imagens/spec.png')"onmouseout="mudaFoto('imagens/multimidia.png')"><a href="specs.html" target="_blank">Especificacoes</a></li>
+ 
+ <LI onmouseover="mudaFoto('imagens/maqui.png')" onmouseout="mudaFoto('imagens/multimidia.png')"><a href="fotos.html" target="_blank">Fotos</a></li>
+ 
+ <LI onmouseover="mudaFoto('imagens/vdo.png')"onmouseout="mudaFoto('imagens/multimidia.png')"><a href="videos.html" target="_blank">Video</a></li>
+ 
+ <LI onmouseover="mudaFoto('imagens/multimidia.png')"onmouseout="mudaFoto('imagens/multimidia.png')"><a href="multimidia.html" target="_blank">Multimidias</a></li>
+ 
+ <LI onmouseover="mudaFoto('imagens/ligue.png')"onmouseout="mudaFoto('imagens/multimidia.png')"><a href="faleconosco.html" target="_blank">Fale conosco</a></li>
+ </ul>
+ </nav>
+ </header>
+ <section id="corpo-full">
+  <article id="noticia-principal">
+  <header id="cabecalho-artigo">
+  <hgroup>
+ <h3>Glas > multimidia</h3>
+ <h1>Videos e Sons</h1>
+ <h2>Por Jorge Deli</h2>
+ <h3 class="direita">Atualizado em 25/06/2020</h3>
+ </hgroup>
+ </header>
+ 
+ <div id="tv-radio">
+ <!-- config Audio-->
+ <audio id="musica" controls= "controls">
+ <source src="musica/luz do mundo.mp3" type="audio/mpeg"/>
+ <source src="musica/luz do mundo" type="audio/x-aac">
+ <source src="musica/luz do mundo" type="audio-ogg">
+ Desculpe,mas não foi possível carregar o áudio
+ </audio>
+ </div>
+ 
+ <div id="tv-video">
+ <!-- config video-->
+ <video id="filme"  controls="controls" poster="imagens/praia.jpg">
+ <source src="imagens/se judas esperace.mp4" type="video/mp4">
+ <source src="imagens/se judas esperace.webm" type="video/webm">
+ <source src="imagens/se judas esperace.ogg" type="video/ogg">
+ Desculpe,mas não foi possível carregar o video
+ </video>
+ </div>
+  
+ </article>
+</section>
+ 
+
+ 
+ <footer id="rodape">
+  <p>Tel:&#40;16 &#41; 992252336
+    &#124; e-mail: jdelsant@hotmail.com</br>
+ <a href="https://www.facebook.com/" target="_blank">facebook</a> &#124;
+ <a href="https://twitter.com/" target="_blank">Twiter</a>
+ </p>
+ </footer>
+</body>
+
+</html>
