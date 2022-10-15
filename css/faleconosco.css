@@ -1,0 +1,48 @@
+@charset "UTF-8";
+form{
+	width:600px;
+	margin:auto;
+}
+textarea{
+	font-family:sans-serif;
+	font-weight:normal;
+	font-size:13pt;
+	background-color:rgba(255,255,255,.8);
+	float:left;
+	}
+	input:hover, textarea:hover {
+		background-color:#dddddd;
+	}
+	legend{
+		color:#888888;
+		font-weight: bold;
+		font-size:13pt;
+		font-family:sans-serif;
+	}
+	fieldset{
+		border-color:#cecece;
+		margin:20px;
+	}
+	
+	fieldset#sexo{
+	width:120px;	
+	}
+	fieldset#usuario{
+		background:url(../imagens/usuario.png)no-repeat 95% 95%;
+	}
+	fieldset#endereco{
+		background:url(../imagens/casa.jpg)no-repeat 95% 95%;
+	}
+	fieldset#mensagem{
+		background:url(../imagens/mensagem.png)no-repeat 95% 95%;
+	}
+	fieldset#pedido{
+		background:url(../imagens/pagamento.png)no-repeat 95% 95%;
+	}
+	input{
+	font-family:sans-serif;
+	font-weight:normal;
+	font-size:13pt;
+	background-color:rgba(255,255,255,.8);
+	}
+	

@@ -1,0 +1,244 @@
+@charset"utf8";
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
+body{
+	font-family:Arial,sans-serif;
+	background-color:#dddddd;
+	color: rgba(0,0,0,1);
+	
+	}
+	
+	p {
+         text-align:justify;
+		text-indent:50px;
+	}
+	a{
+		color:#606060;
+		text-decoration:none;
+	}
+/* espaco utilizado para formatacao da tabela ---------------- */
+	table#tabela{
+		border:1px solid #606060;
+		  border-spacing:0px;
+		  margin-left:auto;
+		  margin-right:auto;
+		  
+		  
+	}
+	table#tabela td{
+	border:1px solid #606060;
+	padding:10px;
+	text-align:center;
+	
+  
+	}
+	table#tabela td.ce{
+	background-color:#606060;	
+	color:#ffffff;
+	vertical-align:top;
+	font-weight:bold;
+	}
+	table#tabela td.cd{
+		background-color:#cecece;
+	}
+	table#tabela caption{
+	color:#888888;
+    font-size:18px;
+    font-weight:bold;
+	margin:5px;
+ 
+	}
+	table#tabela caption span{
+	display:block;	
+	 font-size:10pt;
+	 float:right;
+	 color:#000000;
+	 margin-top:5px;
+	 }
+/*---------------------------------------------------------------------*/
+
+@font-face {
+	font-family:'fonteLogo';
+	src: url("fontes/oleoscript-regular.ttf");
+         }
+div#interface{
+	width:950px;
+	background-color:#ffffff;
+	margin:-10px auto 0px auto;
+	box-shadow:0px 0px 10px rgba(0,0,0,.5);
+	padding:10px;/*O padding pode se colocar dessa forma tambem
+	top10px,esquerda10px,rodape10px,direita10px*/
+	}
+	
+/*formatacao do cabecalho-------------------------------------------------------------------------*/
+header#cabecalho img#icone{
+	position:absolute;
+	left:950px;
+	 top:98px;
+	
+	}
+header#cabecalho{
+	border-bottom:1px #606060 solid;
+	height:180px;
+	background:url("../imagens/person.png")no-repeat 20px 130px;
+	background-color:#e6f7ff;
+	padding:10px;
+	 border-radius:10px 10px;
+	 } 
+
+header#cabecalho h1{
+	font-family:fonteLogo;
+	font-size:30pt;
+	color:	#0080ff;
+	text-shadow:1px 1px 2px rgba(0,0,0,.6);
+	padding:0px;
+	margin-bottom:0px;
+	}
+header#cabecalho h2{
+    font-family: 'Pangolin', cursive;/* <---importado do google fontes*/
+	color:#0066cc;
+	font-size:13pt;
+	padding: 0px;
+	margin-top:0px;
+	}
+	
+/*formatacao da foto principal------------------------------------------------------------------------------------------------------------------*/
+ figure.foto-legenda{
+	position:relative;
+	border:4px solid white;
+	box-shadow:1px 1px 4px black;
+	border-radius:20px 10px;
+	}
+	figure.foto-legenda img{
+		position:relative;
+		width:100%;
+		height:100%;
+	}
+	figure.foto-legenda figcaption {
+		opacity:0;
+		position: absolute;
+		top:0px;
+		background-color:rgba(0,0,0,.4);
+		color:white;
+		width:100%;
+		height:100%;
+		padding:10px;
+		box-sizing:border-box;
+		transition:opacity 1s;
+	}
+      figure.foto-legenda:hover figcaption{
+		opacity:1;
+	}
+	
+/*area de formatacao do Menu ------------------------------------*/
+	nav#menu{
+		display:block;
+	}
+	nav#menu ul{
+		list-style:none;
+		text-transform:uppercase;
+		position:absolute;
+		top:-10px;
+		left:200px;
+		}
+	nav#menu li{
+		display:inline-block;
+		background-color:#dddddd;
+		padding:5px;
+		margin:2px;
+		transition:background-color 1s;
+		border-radius:10px 5px;
+		}
+	nav#menu h1{
+			display:none;
+		}
+	nav#menu li:hover{
+		background-color:#606060;
+		}
+	nav#menu a{
+			color:#000000;
+			text-decoration:none;
+		}
+	nav#menu a:hover{
+			color:#ffffff;
+			text-decoration:underline;
+		}
+		
+/*divisao do site ---------------------------------------------------*/
+	section#corpo{
+			display:block;
+			width:490px;
+			float:left;
+			border-right:1px solid #606060;
+		    padding-right:10px;
+			
+		}
+/*---formatacao do article--------------------------------*/
+article#noticia-principal h2{
+	font-size:12px;
+	color:#606060;
+	background-color:#dddddd;
+	padding:5px 0px 5px 10px;
+	margin:10px 0px 10px 0px;
+	
+}
+header#cabecalho-artigo h1{
+	font-family:'fonteLogo' sans-serif;
+	font-size:20pt;
+	color:#606060;
+	margin-bottom:0px;
+	margin-top:0px;
+}
+.direita{
+text-align:right;	
+}
+header#cabecalho-artigo h2{
+	font-size:13pt;
+	color:#cecece;
+	background-color:#ffffff;
+	margin:0px;
+}
+header#cabecalho-artigo h3{
+	font-size:12px;
+	color:#606060;
+}
+/*--------------------------------------------------------*/
+	aside#lateral{
+			display:block;
+			width:400px;
+			float:right;
+			padding-left:10px;
+			background-color:#ccccff;
+			box-shadow:2px 2px 2px rgba(0, 0, 77,.5);
+			padding:20px;
+			margin-top:5px;
+		}
+		aside#lateral h1{
+			font-family:'Pangolin', cursive;
+			font-size:20pt;
+			color:#606060;
+		}
+		aside#lateral h2{
+			background-color:#606060;
+			font-size:13pt;
+			color:#ffffff;
+			padding:5px;
+		}
+		
+/*---formatacao do rodape------------------------------------------------------------------------------------*/
+	footer#rodape{
+		width:920px;
+		margin-top:15px;
+		clear:both;
+		border-top:1px solid #606060;
+		background-color:#e6f7ff;
+		padding:5px;
+		}
+	footer#rodape p{
+		text-align:center;
+		font-family:'Pangolin', cursive;
+	}
+	footer#rodape a:hover{
+		text-decoration:underline;
+		color:#ff0000;
+	}
+		/*------------------------------------------------------------------*/

@@ -1,0 +1,10 @@
+@charset"utf8";
+
+div#cir{
+	background:#ff0000;
+	display:block;
+	height:250px;
+	width:250px;
+}
+
+
