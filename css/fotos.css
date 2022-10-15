@@ -1,4 +1,5 @@
-﻿@charset "UTF-8"
+﻿@charset "UTF-8";
+
 ul#album-fotos{
 	width:700;
 	margin:0 auto;
@@ -16,7 +17,7 @@ ul#album-fotos li{
 	border:5px solid #ffffff;
 	background-color:#ffffff;
 	box-shadow:1px 1px 3px rgba(0,0,0,.4);
-	-webkit-transition:all .3s ease-in;
+	-webkit-transition: all .3s ease-in;
 	}
 	
 	ul#album-fotos li:hover{
